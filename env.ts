@@ -1,9 +1,9 @@
 const database = {
-  host: process.env.DATABASE_HOST,
-  port: process.env.DATABASE_PORT,
-  user: process.env.DATABASE_USER,
-  password: process.env.DATABASE_PASSWORD,
-  name: process.env.DATABASE_NAME,
+  host: Bun.env.DATABASE_HOST,
+  port: Bun.env.DATABASE_PORT,
+  user: Bun.env.DATABASE_USER,
+  password: Bun.env.DATABASE_PASSWORD,
+  name: Bun.env.DATABASE_NAME,
 };
 
 console.info(database);
